@@ -31,6 +31,35 @@ Table 2
 |int64 | unsigned 64-bit value	| typedef unsigned long long int64;
 |sint64|signed 64-bit value	    | typedef signed long long sint64;
 
+Table 3
+
+|Iteration	| a |	b |	c |	d |	e |
+|-----------|---|---|---|---|---|
+|1st	      |2	|2	|3	|4	|2 |
+|2nd	      |8	|9	|8	|7	|8|
+|3rd	      |14	|15	|14	|13	|14|
+|4th	      |20	|21	|20	|19	|20|
+|5th	      |26	|27	|26	|25	|26|
+
+Table 4
+
+|Parameter	| Value Sought |
+|-----------|--------------|
+|Starting address of func |	0xC0BA |
+|Ending address of func |	0xC0C6 |
+|Register holding w |	R12 |
+|Register holding x |	R13 |
+|Register holding y |	R14 |
+|Register holding z |	R15 |
+|Register holding return value |	R12 |
+
+Q1: What is the role of the extern directive in a .c file?
+
+An extern is the opposite of a local variable. Using the extern directive allows for outside use per say, so that other files linked to a header to main file might access it. The difference between extern and using a local variable however is that extern only declares a variable. It does not define the variable. 
+
+Q2: What is the role of the .global directive in an .asm file (used in lines 28-32)? 
+
+The .global directive allows for a symbol to be defined in the current file and used in another, or defined in another file and used in the current one. 
 
 #Req. Functionality
 
