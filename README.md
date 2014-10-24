@@ -4,6 +4,20 @@ Goals: Use CCS in C language to create and etch a sketch and a pong game
 
 #Prelab
 
+Table 1
+
+|Size  |Signed/Unsigned	|Type| Min value |	Max value |
+|------|----------------|----|-----------|------------|
+|8-bit |	unsigned	    |Char| 0 or -128 |	255 or 127|
+|8-bit |	signed	      |Signed char|	-128|	127
+|16-bit|	unsigned	    |unsigned short	|0 |	65535
+|16-bit|	signed	      |Signed short|	-32768 |	32767
+|32-bit|	unsigned	    |Unsigned long|	0	| 4294967295
+|32-bit|	signed	      |Long, signed long|	-2,147,483,648 |	2147483647
+|64-bit|	unsigned	    |Unsigned long long|	0	| 18446744073709551615
+|64-bit|	signed	      |Long long, signed long long|	-9223372036854775808 |	9223372036854775807
+
+
 Table 2
 
 |Type	 | Meaning	              |  C typedef declaration |
