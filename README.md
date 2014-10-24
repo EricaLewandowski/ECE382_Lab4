@@ -63,6 +63,19 @@ The .global directive allows for a symbol to be defined in the current file and 
 
 #Req. Functionality
 
+Modify your assembly drawBlock function to take in 3 values: an x coordinate, a y coordinate, and a color.
+
+Create an etch-a-sketch program using the directional buttons of the LCD booster pack to control the position of the paint brush. The paint brush will draw 8x8 blocks of pixels. The user will change the position of the paint brush by pressing the directional buttons. Each button press will move the cursor 8 pixels in the direction pressed (see table below). Pressing the auxiliary button (SW3) will toggle the mode of the paint brush between filling squares and clearing squares.
+
+| Button |	Function |
+|--------|-----------|
+|SW5/Up	 |Move the cursor up 1 block |
+|SW4/Down|	Move the cursor down 1 block |
+|SW2/Left|	Move the cursor left 1 block |
+|SW1/Right|	Move the cursor right 1 block |
+|SW3/Aux|	Toggle the color of the paint brush|
+
+
 #B Functionality
 
 #A Functionality 
