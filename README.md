@@ -78,7 +78,10 @@ Create an etch-a-sketch program using the directional buttons of the LCD booster
 
 #B Functionality
 
-#A Functionality 
+Create a bouncing block! This block should move across the screen with no more than 8 pixels per jump. It should bounce off the walls appropriately, similar to assignment 6. An adequate delay movement should be added between each block movement. Your starting position and starting x and y velocities should be initialized in your header, or should be randomly generated.
+
+#A Functionality
+Create Pong on your display! Create a single paddle that will move up and down on one side of the display, controlled by the up and down buttons. The block will bounce off the paddle like it bounces off the wall. When the block misses hitting the paddle, the game will end.
 
 #Documentation: C2C Nathan Ruprecht assisted me with B & A Functionality. We went through his code and he explained it in English, 
 and then we translated it to my code. 
