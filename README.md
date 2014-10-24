@@ -75,13 +75,19 @@ Create an etch-a-sketch program using the directional buttons of the LCD booster
 |SW1/Right|	Move the cursor right 1 block |
 |SW3/Aux|	Toggle the color of the paint brush|
 
+Notes: Dr Coulston walked us through how to do the Required Functionality in class on the first lab day. We simply modified parts of our Lab 3, homework assignments, and the given code Lab4.c and nokia.asm
 
 #B Functionality
 
 Create a bouncing block! This block should move across the screen with no more than 8 pixels per jump. It should bounce off the walls appropriately, similar to assignment 6. An adequate delay movement should be added between each block movement. Your starting position and starting x and y velocities should be initialized in your header, or should be randomly generated.
 
+C2C Ruprecht helped explain this part to me because my program wasn't cooperating; I was trying too hard. This issue I had was that my bottom edge had the wrong value, and the wrong kind of loop. I misunderstood when to use the for loop as a delay factor. C2C Ruprecht showed me how to code the delay cycles line. 
+
 #A Functionality
 Create Pong on your display! Create a single paddle that will move up and down on one side of the display, controlled by the up and down buttons. The block will bounce off the paddle like it bounces off the wall. When the block misses hitting the paddle, the game will end.
 
-#Documentation: C2C Nathan Ruprecht assisted me with B & A Functionality. We went through his code and he explained it in English, 
-and then we translated it to my code. 
+C2C Ruprecht explained how to modify the drawBlock function to create 2 drawPaddle functions, one for the top half and one for the bottom half. Then, we set the left boundary condition to be the paddle rather than the edge so if the paddle misses, the game is over and it exits the while loop. 
+
+#Documentation: 
+
+C2C Nathan Ruprecht assisted me with B & A Functionality. We went through his code and he explained it in English, and then we translated it to my code. Noted throughout the explanations. 
